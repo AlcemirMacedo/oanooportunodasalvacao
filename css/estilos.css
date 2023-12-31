@@ -6,15 +6,13 @@
 }
 
 body{
-    background: rgb(77,177,13);
-    background: linear-gradient(180deg, rgba(77,177,13,1) 0%, rgba(44,108,79,1) 43%, rgba(14,46,138,1) 100%);
+    background-image: url('../images/background-dourado.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
     display: flex;
     justify-content: center;
     
-}
-.page2{
-    background: rgb(255,157,64);
-    background: linear-gradient(180deg, rgba(255,157,64,1) 0%, rgba(252,238,166,1) 100%);
 }
 
 .container{
